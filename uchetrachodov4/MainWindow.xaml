@@ -1,0 +1,56 @@
+﻿<Window x:Class="uchetrachodov4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:uchetrachodov4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="630">
+    <Grid>
+        <GroupBox Header="Траты" Width="499" Height="433" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <ListView x:Name="change" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}" SelectionChanged="ListView_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Категория" DisplayMemberBinding="{Binding Path=Category}"/>
+                            <GridViewColumn Header="Стоимость" DisplayMemberBinding="{Binding Path=Cash}"/>
+                            <GridViewColumn Header="Карта" DisplayMemberBinding="{Binding Path=Card1}"/>
+                            <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding Path=Card2}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <GroupBox Header="Детализация" Width="Auto" Margin="10">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="30*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="78*"/>
+                            <ColumnDefinition Width="112*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0" Margin="0,17,0,10">Категория трат:</Label>
+                        <TextBox Height="23" Width="110" Grid.Column="1" Grid.Row="0" Text="{Binding Path=Category}"></TextBox>
+
+                        <Label Height="23" Grid.Row="1">Наличные:</Label>
+                        <TextBox Height="23" Width="110" Grid.Row="1" Grid.Column="1" Text="{Binding Path=Cash}"></TextBox>
+
+                        <Label Height="23" Grid.Row="2">Карта основная:</Label>
+                        <TextBox Height="23" Width="110" Grid.Row="2" Grid.Column="1" Text="{Binding Path=Card1}"></TextBox>
+
+                        <Label Height="23" Grid.Row="3">Карта дополнительная:</Label>
+                        <TextBox Height="23" Width="110" Grid.Row="3" Grid.Column="1" Text="{Binding Path=Card2}"></TextBox>
+
+                        <Button Grid.ColumnSpan="2" Grid.Column="0" Height="23" Width="Auto" HorizontalAlignment="Left" Margin="3" Grid.Row="4" Click="AddNewItem" Content="Добавить источник расходов"/>
+                        <Button Grid.ColumnSpan="2" Grid.Column="0" Height="23" Width="Auto" HorizontalAlignment="Left" Margin="3,58,0,35" Grid.Row="4" Click="RemoveItem" Content="Удалить источник расходов" Grid.RowSpan="2"/>
+                    </Grid>
+                </GroupBox>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

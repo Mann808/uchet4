@@ -1,0 +1,16 @@
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\bin\Debug\uchetrachodov4.exe.config
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\bin\Debug\uchetrachodov4.exe
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\bin\Debug\uchetrachodov4.pdb
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.csproj.AssemblyReference.cache
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\MainWindow.g.cs
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\App.g.cs
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4_MarkupCompile.cache
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4_MarkupCompile.lref
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\MainWindow.baml
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.g.resources
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.Properties.Resources.resources
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.csproj.GenerateResource.cache
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.csproj.CoreCompileInputs.cache
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.exe
+C:\Users\Mann\source\repos\mann\uchetrachodov4\uchetrachodov4\obj\Debug\uchetrachodov4.pdb
